@@ -1,0 +1,55 @@
+body {
+  font-family: arial;
+}
+
+.header {
+  background-color: blue;
+}
+
+.header h1 {
+  display: inline-block;
+}
+
+.cookie {
+  position: absolute;
+  width: 40vw;
+  left: 20vw;
+}
+
+.cookie:hover {
+  width: 41vw;
+  left: 19.5vw;
+}
+
+.booster {
+  background-color: blue;
+  padding: 8px 20px;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.reset {
+  background-color: blue;
+  padding: 8px 20px;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.boosterMax {
+  background-color: blue;
+  padding: 8px 20px;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
