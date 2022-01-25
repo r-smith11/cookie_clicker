@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="base.css" type="text/css" rel="stylesheet">
+    <script src="script.js" type="text/javascript"></script>
+    <title>Cookie Clicker</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Score: </h1>
+      <h1 id="score">0</h1>
+    </div>
+
+    <div>
+      <img class="cookie" onClick = cookieClick() src="C:\Users\rsmit\Downloads\PerfectCookie.png" alt="cookie">
+    </div>
+
+    <br>
+
+    <div class="booster">
+      <button onClick = boosterClick() type="button">Booster</button>
+      <button onClick = boosterClickTen() type="button">Booster x 10</button>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="boosterMax">
+      <button onClick = boosterClickMax() type="button">Booster Max</button>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="reset">
+      <button onClick = resetScore() type="button">Reset Score</button>
+    </div>
+
+  </body>
+</html>
